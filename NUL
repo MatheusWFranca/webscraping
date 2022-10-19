@@ -1,0 +1,125 @@
+[1666146320.171][INFO]: Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 55619
+[1666146320.171][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1666146320.667][INFO]: [406c8e454f87d74c1e5f422270a33aa6] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "window-size=400,800" ],
+            "detach": true,
+            "extensions": [  ]
+         },
+         "pageLoadStrategy": "normal"
+      },
+      "firstMatch": [ {
+      } ]
+   }
+}
+[1666146320.671][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1666146320.671][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1666146320.671][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/yy/tndh3zh10rbf7rhtk14gqcvw0000gn/T/.com.google.Chrome.PgciY8 --window-size=400,800 data:,
+[1666146321.571][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1666146321.586][INFO]: [406c8e454f87d74c1e5f422270a33aa6] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "106.0.5249.119",
+      "chrome": {
+         "chromedriverVersion": "106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569})",
+         "userDataDir": "/var/folders/yy/tndh3zh10rbf7rhtk14gqcvw0000gn/T/.com.google.Chrome.PgciY8"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:55625"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "406c8e454f87d74c1e5f422270a33aa6"
+}
+[1666146321.619][INFO]: [406c8e454f87d74c1e5f422270a33aa6] COMMAND Navigate {
+   "url": "https://www.google.com.br"
+}
+[1666146321.635][INFO]: Waiting for pending navigations...
+[1666146321.637][INFO]: Done waiting for pending navigations. Status: ok
+[1666146322.056][INFO]: Waiting for pending navigations...
+[1666146323.023][INFO]: Done waiting for pending navigations. Status: ok
+[1666146323.023][INFO]: [406c8e454f87d74c1e5f422270a33aa6] RESPONSE Navigate
+[1666146323.031][INFO]: [406c8e454f87d74c1e5f422270a33aa6] COMMAND QuitAll {
+}
+[1666146323.031][INFO]: [406c8e454f87d74c1e5f422270a33aa6] RESPONSE QuitAll
+[1666146323.031][WARNING]: Chrome quit unexpectedly, leaving behind temporary directoriesfor debugging:
